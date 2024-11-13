@@ -1,0 +1,118 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    color-scheme: light dark;
+    background-color: #F8F4E1;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+body {
+    margin: 0;
+    display: flex;
+    min-width: 320px;
+    min-height: 100vh;
+}
+
+#root {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+button{
+        background-color: #B6C7AA;
+        margin: 5px;
+        border-radius: 8px;
+        border: 1px solid transparent;
+        padding: 0.6em 1.2em;
+        font-size: 1em;
+        font-weight: 500;
+        font-family: inherit;
+        cursor: pointer;
+        transition: border-color 0.25s;
+}
+
+.homepage{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+  color:   #74512D;
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  height: 85vh;
+  width: 100%;
+  }
+  
+.region {
+    padding: 20px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  
+.left {
+    background-color: #f0f0f0;
+  }
+  
+.right {
+    background-color: #B6C7AA;
+  }
+.whiteButton{
+  background-color: #f0f0f0;
+  color: black;
+  font-weight: bold;
+  
+
+}
+
+label {
+  display: inline-block;
+  width: 110px;
+  text-align: left;
+}
+
+input{
+  width: 250px; 
+  height: 30px; 
+  font-size: 16px;  
+}
+select{
+  width: 258px; 
+  height: 38px; 
+  font-size: 16px;  
+}
+.departments{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 2px solid #B6C7AA;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
